@@ -7,18 +7,18 @@ function NotFoundPage() {
     return (
         <Box className="notFoundPage">
             <>
-                <Typography variant='h2' className='title'>
-                    Procurando fantasmas ? Página errada !
+                <Typography variant='h3' className='title'>
+                    Ops! Perdeu o caminho? Destino não localizado!
                 </Typography>
                 <Typography variant='h6' className='title'>
                     <Link to={"/"}>
-                        Redirecionar para home !
+                        Clique AQUI e recomece a sua jornada!
                     </Link>
                 </Typography>
             </>
             
 
-            <img src={Ghost} width="500rem" alt='Fantasma'/>
+            <img src={Ghost} width="500rem" alt='Fantasma de óculos'/>
         </Box>
     )
 }

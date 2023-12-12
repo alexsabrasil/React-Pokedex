@@ -2,6 +2,7 @@
 import Home from "./components/template/home";
 import ListPokemons from "./components/ListPokemons";
 import Footer from "./components/template/footer";
+
 import './App.css'
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <>
       <Home />
       
+     
       <ListPokemons />  
 
       <Footer />

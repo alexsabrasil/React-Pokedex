@@ -37,41 +37,49 @@ function Footer() {
                 <Typography 
                     sx={{
                         mt: 2,
-                        fontSize: 20,
+                        fontSize: 18,
                         textAlign: 'center'
                     }}
                     className="footerTitle"
                 >
-                    <a href="https://github.com/alexsabrasil" target="_blank" rel="noopener noreferrer">
-                        <GitHubIcon /> Repositório    
+                    <a href="https://github.com/alexsabrasil/React-Pokedex" target="_blank" rel="noopener noreferrer">
+                        <GitHubIcon /> Repository    
                     </a>
                 </Typography>
 
                 <Typography 
                     sx={{
                         mt: 1,
-                        fontSize: 20,
+                        fontSize: 18,
                         textAlign: 'center'
                     }}
                     className="footerTitle"
                 >
                     <a href="https://www.linkedin.com/in/alexsatecnolog/" target="_blank" rel="noreferrer">
-                        <LinkedInIcon /> Rede Profisssional
+                        <LinkedInIcon /> Professional Network
                     </a>
                 </Typography>
 
                 <Typography 
                     sx={{
                         mt: 1,
-                        fontSize: 20,
+                        fontSize: 18,
                         textAlign: 'center'
                     }}
                     className="footerTitle"
                 >
                     <a href="https://pokeapi.co/" target="_blank">
-                        <ArticleIcon /> Documentação
+                        <ArticleIcon /> Doc PokeAPI
+                    </a>{" "}
+                    <a href="https://mui.com/" target="_blank">
+                        <ArticleIcon /> Doc Material-UI
                     </a>
+
                 </Typography>
+                
+                
+
+
                 
             </Box>
         </Box>
