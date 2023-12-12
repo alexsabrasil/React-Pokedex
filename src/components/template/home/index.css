@@ -7,7 +7,6 @@
 
 .header {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -43,14 +42,13 @@ h2 {
 }
 
 .buttons {
-    max-width: 100%;
+    max-width: 20%;
 }
 
 .paper {
     height: 13rem;
     width: 80%;
     text-align: center;
-    margin: 0 auto;
 }
 
 .subTitulo {
@@ -58,7 +56,7 @@ h2 {
 }
 
 .div2 { 
-    grid-area: 2 / 1 / 7 / 6; 
+    grid-area: 1 / 4 / 6 / 6; 
     margin-top: 3rem;
 } 
 

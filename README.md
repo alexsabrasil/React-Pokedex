@@ -8,9 +8,6 @@ Um aplicativo para exibir estatísticas de anime Pokémon usando API pública Po
 
 
 
-
-
-
 ## Vídeo exploratório
 
 https://desafio-react-pokedex.vercel.app/
@@ -47,3 +44,6 @@ Executando o projeto
 ## Autora
 
 - [Alexsandra Tavares](https://github.com/alexsabrasil/)
+
+
+https://i.im.ge/2023/12/12/EPSu1M.backg-pokemon.jpg
