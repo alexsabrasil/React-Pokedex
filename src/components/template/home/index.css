@@ -7,7 +7,7 @@
 
 .header {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
@@ -42,12 +42,12 @@ h2 {
 }
 
 .buttons {
-    max-width: 20%;
+    max-width: 30%;
 }
 
 .paper {
     height: 13rem;
-    width: 80%;
+    width: 45rem;
     text-align: center;
 }
 
