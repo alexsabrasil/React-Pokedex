@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,300&display=swap');
+
+.notFoundPage {
+    background-color: #7D78A3;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    height: auto;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    .notFoundPage {
+        padding: 20px; /* Adicionando preenchimento para melhorar a aparência em telas menores */
+    }
+}
