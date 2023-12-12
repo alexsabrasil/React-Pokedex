@@ -22,7 +22,7 @@ function ListPokemons(){
         <>
             <div className='content'>
                 <Typography variant="h2" gutterBottom className='titulo'> 
-                    Escolha o seu preferido 
+                    Selecione o seu favorito 
                 </Typography>
                 {list.map((item) => (
                     <Button 
