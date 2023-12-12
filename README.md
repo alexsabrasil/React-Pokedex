@@ -4,7 +4,9 @@
 
 Um aplicativo para exibir estatísticas de anime Pokémon usando API pública PokeApi
 
+## imagem do resultado
 
+![pokedex-react3](https://github.com/alexsabrasil/React-Pokedex/assets/113733583/8a377946-2420-47fa-89e9-5784a6dab42b)
 
 ## Vídeo exploratório
 
