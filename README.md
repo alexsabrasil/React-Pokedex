@@ -8,7 +8,7 @@ Um aplicativo para exibir estatísticas de anime Pokémon usando API pública Po
 
 ## Vídeo exploratório
 
-
+https://desafio-react-pokedex.vercel.app/
 
 
 ## Funcionalidades
