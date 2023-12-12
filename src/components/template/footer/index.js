@@ -12,7 +12,7 @@ function Footer() {
             <Box 
                 className="leftSide"
             >
-                <img src={Pikachu} width="70%" className="image"/>
+                <img src={Pikachu} width="70%" className="image" alt="Imagem de um coelho"/>
             </Box>
 
             <Box className="rigthSide">
@@ -42,7 +42,7 @@ function Footer() {
                     }}
                     className="footerTitle"
                 >
-                    <a href="https://github.com/alexsabrasil" target="_blank">
+                    <a href="https://github.com/alexsabrasil" target="_blank" rel="noopener noreferrer">
                         <GitHubIcon /> Repositório    
                     </a>
                 </Typography>
@@ -55,7 +55,7 @@ function Footer() {
                     }}
                     className="footerTitle"
                 >
-                    <a href="https://www.linkedin.com/in/alexsatecnolog/" target="_blank">
+                    <a href="https://www.linkedin.com/in/alexsatecnolog/" target="_blank" rel="noreferrer">
                         <LinkedInIcon /> Rede Profisssional
                     </a>
                 </Typography>

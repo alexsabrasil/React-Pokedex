@@ -1,9 +1,9 @@
 import { Box, Typography } from '@mui/material'
 import { Link } from 'react-router-dom'
-import Ghosts from './ghosts.png'
+import Ghost from './ghost.png'
 import './index.css'
 
-function notFoundPage() {
+function NotFoundPage() {
     return (
         <Box className="notFoundPage">
             <>
@@ -18,9 +18,9 @@ function notFoundPage() {
             </>
             
 
-            <img src={Ghosts} width="500rem" alt='Fantasmas'/>
+            <img src={Ghost} width="500rem" alt='Fantasma'/>
         </Box>
     )
 }
 
-export default notFoundPage
+export default NotFoundPage
