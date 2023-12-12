@@ -2,9 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 .content {
-    background-image: url("https://i.im.ge/2023/12/12/EPSu1M.backg-pokemon.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+    background-image: url("https://i.im.ge/2023/12/13/EC1oEq.background-pokemons.png");
+    background-repeat: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .titulo {
@@ -16,6 +21,8 @@
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
+    text-align: center; 
+    padding: 20px; 
 }
 
 .pokemonsName{
@@ -27,7 +34,7 @@
 
 @media screen and (max-width: 600px) {
     .titulo {
-        font-size: 1.5rem; /* Ajustando o tamanho da fonte em telas menores */
+        font-size: 1.2rem; /* Ajustando o tamanho da fonte em telas menores */
         padding: 10px; /* Ajustando o espaçamento interno em telas menores */
     }
 }

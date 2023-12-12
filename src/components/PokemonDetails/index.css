@@ -104,9 +104,14 @@
 }
 
 @media screen and (max-width: 600px) {
+    .box {
+        grid-template-columns: repeat(2, 1fr); /* Redefinindo a grade para 2 colunas em telas menores */
+    }
+
     .tipo,
     .status,
     .golpes {
         flex-direction: column; /* Ajustando para coluna em telas menores */
+        align-items: center; /* Centralizando o conteúdo */
     }
 }

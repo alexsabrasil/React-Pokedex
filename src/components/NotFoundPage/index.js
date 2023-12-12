@@ -8,7 +8,7 @@ function NotFoundPage() {
         <Box className="notFoundPage">
             <>
                 <Typography variant='h3' className='title'>
-                    Ops! Perdeu o caminho? Destino não localizado!
+                    Ops! Perdeu o caminho? 
                 </Typography>
                 <Typography variant='h6' className='title'>
                     <Link to={"/"}>
@@ -18,7 +18,7 @@ function NotFoundPage() {
             </>
             
 
-            <img src={Ghost} width="500rem" alt='Fantasma de óculos'/>
+            <img src={Ghost} width="420rem" alt='Fantasma de óculos'/>
         </Box>
     )
 }

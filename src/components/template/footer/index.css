@@ -46,7 +46,15 @@ a {
      }
  
      .leftSide,
-     .rightSide {
+     .rigthSide {
          grid-area: auto; /* Redefinindo a área do grid para o padrão */
      }
- }
+     
+     .image {
+         padding: 20px; /* Ajustando o padding da imagem em telas menores */
+     }
+     
+     .devImage {
+         margin-top: 20px; /* Ajustando a margem da imagem em telas menores */
+     }
+}
