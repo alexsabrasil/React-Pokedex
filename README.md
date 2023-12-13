@@ -6,11 +6,11 @@ Um aplicativo para exibir estatísticas de anime Pokémon usando API pública Po
 
 ## Imagem do resultado
 
-
+![selecione-seu-favorito](https://github.com/alexsabrasil/React-Pokedex/assets/113733583/1dcc1d09-321e-49c5-9936-31f0472f1a3e)
 
 ## Vídeo exploratório
 
-https://desafio-react-pokedex.vercel.app/
+https://react-pokedex-alexsabrasil.vercel.app/
 
 
 ## Funcionalidades
