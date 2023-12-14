@@ -4,36 +4,36 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Typography } from '@mui/material';
 
-function ListPokemons(){
+function ListPokemons() {
     // Nossa lista que sera preenchida pela requisição
     const [list, setList] = useState([]);
 
     // Chamando nossa função toda vez que o componente renderizar
     useEffect(() => {
         // Executar após essa requisição ser concluida, nos trazendo o data
-        api.get().then(({data}) => {
+        api.get().then(({ data }) => {
             setList(data.results)
 
         })
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    return(
+    return (
         <>
             <div className='content'>
-                <Typography variant="h2" gutterBottom className='titulo'> 
-                    Selecione o seu favorito 
+                <Typography variant="h2" gutterBottom className='titulo'>
+                    Selecione o seu favorito
                 </Typography>
                 {list.map((item) => (
-                    <Button 
-                    variant="contained"
-                    key={item.name} 
-                    size="small"
-                    sx={{ m: 1}}
+                    <Button
+                        variant="contained"
+                        key={item.name}
+                        size="small"
+                        sx={{ m: 1 }}
                     >
-                        <Link to={"/pokemon/"+ item.name}>
+                        <Link to={"/pokemon/" + item.name}>
                             <p className="pokemonsName">
-                                {item.name}    
+                                {item.name}
                             </p>
                         </Link>
                     </Button>
