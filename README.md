@@ -1,17 +1,29 @@
 
+<<<<<<< HEAD
 # Pokédex React JS
-
+=======
+# Pokédex React JS 
+>>>>>>> 50c04ac723f8f4dd65e959d706d8714540b869bf
 
 Uma Pokédex Responsiva feita com React JS, Hooks, consumindo o pokeapi e usando armazenamento local.
 
+<<<<<<< HEAD
+Uma Pokédex Responsiva feita com React JS, Hooks, consumindo o pokeapi e usando armazenamento local.
+
+=======
+>>>>>>> 50c04ac723f8f4dd65e959d706d8714540b869bf
 
 ## Imagem do resultado
 
 ![selecione-seu-favorito](https://github.com/alexsabrasil/React-Pokedex/assets/113733583/1dcc1d09-321e-49c5-9936-31f0472f1a3e)
 
+<<<<<<< HEAD
 ## Vídeo exploratório
 
 https://desafio-react-pokedex.vercel.app/
+=======
+## 
+>>>>>>> 50c04ac723f8f4dd65e959d706d8714540b869bf
 
 
 ## Funcionalidades
@@ -24,9 +36,13 @@ https://desafio-react-pokedex.vercel.app/
 - Estilização responsiva
 - Rodapé com informações do desenvolvedor
 
-
 ## Tecnologias
 
+<<<<<<< HEAD
+## Tecnologias
+
+=======
+>>>>>>> 50c04ac723f8f4dd65e959d706d8714540b869bf
 - React js
 - PokeApi
 - React-Router-Dom
