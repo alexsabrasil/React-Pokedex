@@ -1,8 +1,8 @@
 
-# Pokedex - Pokémon API com ReactJs
+# Pokédex React JS 
 
+Uma Pokédex Responsiva feita com React JS, Hooks, consumindo o pokeapi e usando armazenamento local.
 
-Um aplicativo para exibir estatísticas de anime Pokémon usando API pública PokeApi
 
 ## Imagem do resultado
 
@@ -13,13 +13,52 @@ Um aplicativo para exibir estatísticas de anime Pokémon usando API pública Po
 
 ## Funcionalidades
 
-- Pesquise pokemons por nome
-- Veja todos os pokémons de primeira geração
-- Visualizar informações como: HP, Dano, Defesa e Velocidade
-- Visualize que tipo é esse pokémon e quais são seus movimentos
+- Listagem, Pesquisa, Detalhes de Pokémons
+- Página de não encontrada
+- Componente RandomPokemons
+- Roteamento com React-Router
+- Uso de Material-UI
+- Estilização responsiva
+- Rodapé com informações do desenvolvedor
 
+## Tecnologias
 
-## Implantação
+- React js
+- PokeApi
+- React-Router-Dom
+- Material-UI
+- Axios
+- CSS
+
+## Ferramentas
+
+- Node.js
+- NPM
+- Git
+- React DevTools
+- GitHub
+
+## Dficuldades
+
+- Desempenho em Máquina Limitada
+- Requisições assíncronas
+- Estilo e Responsividade
+- Lógica de Roteamento
+- Integração com APIs
+- Manutenção de Estado Global
+
+## Possíveis Melhorias
+
+- Acessibilidade
+- Segurança
+- Otimização de Desempenho
+- Melhorias na Interface do Usuário UI
+- Gerenciamento de Estado
+- Roteamento
+- Manunseio de Erros
+- Testes Unitários
+
+## Instalação
 
 Instalando as dependências
 ```bash
@@ -29,7 +68,7 @@ Executando o projeto
 ```bash
   npm start
 ```
-
+O aplicativo será aberto no navegador em http://localhost:3000
 
 ## Referências
 
