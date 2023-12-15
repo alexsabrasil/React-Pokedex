@@ -6,7 +6,7 @@ a {
 }
 
 .footer {
-    background: #910491;
+    background: #221322;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);

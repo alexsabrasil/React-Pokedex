@@ -29,10 +29,10 @@ function ListPokemons() {
                         variant="contained"
                         key={item.name}
                         size="small"
-                        sx={{ m: 1 }}
+                        sx={{ m: 1, backgroundColor: 'black', color: 'pink' }}
                     >
-                        <Link to={"/pokemon/" + item.name}>
-                            <p className="pokemonsName">
+                        <Link to={"/pokemon/" + item.name} style={{ textDecoration: 'none' }}>
+                            <p className="pokemonsName" style={{ color: 'pink' }}>
                                 {item.name}
                             </p>
                         </Link>

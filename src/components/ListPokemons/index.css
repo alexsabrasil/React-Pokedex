@@ -11,9 +11,9 @@
 
 .titulo {
     font-family: 'Anek Malayalam', sans-serif;
-    color: #064e8a;
+    color: #420602;
     background: rgba(216, 146, 146, 0.342);
-    box-shadow: 0 8px 32px 0 rgba(54, 60, 150, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(9, 219, 219, 0.37);
     backdrop-filter: blur( 0px );
     -webkit-backdrop-filter: blur( 0px );
     border-radius: 10px;

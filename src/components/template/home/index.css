@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@1,300&display=swap');
 
 .home, .header {
-    background: #ba3ff3;
+    background: #1d1b1f;
 }
 
 .header {
@@ -13,11 +13,11 @@
 
 .searchBox {
     background: rgba( 255, 255, 255, 0.35 );
-    box-shadow: 0 8px 32px 0 rgba(83, 22, 224, 0.37);
+    box-shadow: 0 8px 32px 0 rgba(212, 204, 231, 0.37);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
     border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border: 1px solid rgba(170, 167, 167, 0.973);
     margin: 10px;
 }
 
@@ -53,6 +53,7 @@ h2 {
 
 .subTitulo {
     font-family: 'Nunito Sans', sans-serif;
+    color: #dabce0;
 }
 
 .div2 { 

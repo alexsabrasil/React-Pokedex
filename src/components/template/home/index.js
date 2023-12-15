@@ -24,24 +24,24 @@ function Home() {
     // Chamando a função toda vez que o componente renderizar
     useEffect(() => {
         // Executar após essa requisição ser concluida, trazendo o data
-        api.get().then(({data}) => {
-            const listData = data.results.map((item) => ({...item, label: item.name}))
-            
+        api.get().then(({ data }) => {
+            const listData = data.results.map((item) => ({ ...item, label: item.name }))
+
             setList(listData)
         })
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    return(
+    return (
         <>
             <Box className='header'>
-                <img 
-                    src={Logo} 
+                <img
+                    src={Logo}
                     alt="Pokemon-Logo"
                     width="14%"
                 />
 
-                <Box 
+                <Box
                     sx={{
                         display: 'flex',
                         justifyContent: 'space-between',
@@ -56,7 +56,7 @@ function Home() {
                     onSubmit={handleSubmit}
                     className="searchBox"
                 >
-                    <Typography variant="h6">
+                    <Typography variant="h6" style={{ color: 'white' }}>
                         Pesquisar:
                     </Typography>
 
@@ -64,22 +64,31 @@ function Home() {
                         id="combo-box-demo"
                         options={list}
                         sx={{ width: '50ch' }}
-                        onChange={(e, newEvent) => setValueInput(newEvent.name)}
-                        renderInput={(params) =>                     
-                        <TextField
-                            id="filled-basic"
-                            label="Pesquise por seu pokemon preferido"
-                            variant="standard"
-                            {...params}
-                            sx={{
-                                width: '50ch' 
-                            }}
-                        />}
+                        onChange={(e, newEvent) => setValueInput(newEvent.name || '')}
+                        renderInput={(params) =>
+                            <TextField
+                                id="filled-basic"
+                                label="Pesquise por seu pokémon favorito"
+                                variant="standard"
+                                {...params}
+                                InputLabelProps={{
+                                    style: { color: 'white' },
+                                }}
+                                sx={{
+                                    width: '50ch',
+                                }}
+                            />}
                     />
 
                     <Button
                         variant="contained"
                         type="submit"
+                        sx={{
+                            backgroundColor: 'black',
+                            '& svg': {
+                                fill: '#',
+                            },
+                        }}
                     >
                         <SearchIcon />
                     </Button>
@@ -91,7 +100,7 @@ function Home() {
                 <div className='body'>
                     <div className="div1">
                         <h2>Caterpie</h2>
-                        
+
                         <Box
                             sx={{
                                 display: 'flex',
@@ -99,50 +108,50 @@ function Home() {
                                 flexDirection: 'column',
                             }}
                         >
-                            <Button 
-                                variant="contained" 
-                                color="error" 
+                            <Button
+                                variant="contained"
+                                color="error"
                                 className='buttons'
                                 startIcon={<PetsIcon />}
                             >
                                 Categoria: Lagarta
                             </Button>
-                            <Button 
-                                variant="contained" 
-                                color="error" 
+                            <Button
+                                variant="contained"
+                                color="error"
                                 className='buttons'
                                 startIcon={<LocalFireDepartmentIcon />}
-                                sx = {{
+                                sx={{
                                     mt: 1,
                                 }}
                             >
-                                
+
                                 Origem do nome: Caterpie
                             </Button>
-                            <Button 
-                                variant="contained" 
-                                color="error" 
+                            <Button
+                                variant="contained"
+                                color="error"
                                 className='buttons'
                                 startIcon={<FormatColorResetIcon />}
-                                sx = {{
+                                sx={{
                                     mt: 1,
                                 }}
                             >
                                 Habilidade: Auto-cura efeitos ruins
                             </Button>
-                            
+
                             <Paper
-                                sx = {{
+                                sx={{
                                     bgcolor: 'transparent',
                                     borderRadius: 5,
                                 }}
                                 className="paper"
                             >
-                                <Typography 
+                                <Typography
                                     variant="h6"
                                     gutterBottom
                                     component="div"
-                                    sx = {{
+                                    sx={{
                                         m: 7,
                                     }}
                                     className='subTitulo'
@@ -151,16 +160,16 @@ function Home() {
                                 </Typography>
                             </Paper>
                         </Box>
-                        
+
                     </div>
-                    
+
                     <div className="div2">
-                        <img 
-                        src={Caterpie} 
-                        alt="Pokemon-Logo"
-                        width="90%"
+                        <img
+                            src={Caterpie}
+                            alt="Pokemon-Logo"
+                            width="90%"
                         />
-                    </div> 
+                    </div>
                 </div>
             </div>
         </>
